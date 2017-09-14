@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "VSI Retest",
+    "version": "0.0.0",
+    "author": "Ty Overby",
+    "content_scripts": [
+        {
+            "matches": ["http://github.com/dotnet/roslyn/pull/*", "https://github.com/dotnet/roslyn/pull/*"],
+            "css": [],
+            "js": ["main.js"]
+        }
+    ]
+}
